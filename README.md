@@ -61,9 +61,9 @@ The order of adding the MMMC Objects is as follows.
    
 4. Constraints (SDC)
    
-Once all of them are added, Analysis Views are created and assigned to Setup and Hold. 
+Once all of them are added, Analysis Views are created and assigned to Setup and Hold.
 
-In order to add any of the objects, make a right click on the corresponding label → Select New. 
+In order to add any of the objects, make a right click on the corresponding label → Select New.
 
 Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
@@ -72,26 +72,44 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 134903" src="https://github.com/user-attachments/assets/0264d5bd-6c53-4696-9adf-7590d273262c" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 134850" src="https://github.com/user-attachments/assets/a6f64613-fd5f-452a-843a-d1e6fe8a4fb7" />
+
+
 
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 135042" src="https://github.com/user-attachments/assets/f310ad75-fb46-4737-b065-1baebb9aa368" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 135029" src="https://github.com/user-attachments/assets/2a47220d-fe34-4c24-9ffa-baf72f003731" />
+
+
 
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 135447" src="https://github.com/user-attachments/assets/e7d8ed31-3c2d-4ee3-b962-11dc58d4f337" />
+
+   
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 141145" src="https://github.com/user-attachments/assets/567b9e15-a156-461c-8c7d-0422573e7b9d" />
+
+
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 141618" src="https://github.com/user-attachments/assets/f29b12d8-78ef-4437-a9ff-225d40744fa0" />
+
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 141710" src="https://github.com/user-attachments/assets/4ad256af-eb61-49b2-a04f-600d8679e43b" />
+
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
