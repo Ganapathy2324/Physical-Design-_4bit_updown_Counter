@@ -126,6 +126,9 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 142052" src="https://github.com/user-attachments/assets/28004cd4-4281-4a0c-916f-b709f6361f6d" />
+
+
 
 ### Fig.9 Specify Floorplan 
 
@@ -170,6 +173,8 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 143604" src="https://github.com/user-attachments/assets/41ce1397-13aa-4e32-a671-83f7ffe6ae56" />
+
 
 ### Fig.10 Power plan 
 
@@ -182,10 +187,14 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 2. Select Place → Place Standard Cell → Run Full Placement → Mode → Enable ‘Place I/O Pins’ → OK → OK .
    
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 143724" src="https://github.com/user-attachments/assets/48796d74-4546-459c-8509-8c5243918269" />
+
 
 ### Fig.11 Placement of standard Cells 
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
+<img width="1920" height="1080" alt="Screenshot 2025-11-18 143759" src="https://github.com/user-attachments/assets/5eda98f8-0433-4b79-b1f8-0fc2f0b1e78e" />
+
 
 ## Result
 
